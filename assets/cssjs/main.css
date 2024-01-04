@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&display=swap');
+body {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2b4f70;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.banner {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.banner h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Base Styles */
+
+footer {
+    position: relative;
+    padding-top: 100px;
+    bottom: 0;
+    width: 100%;
+    background: #2b4f70;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer-section h2 {
+    color: #fff;
+}
+
+.footer-section p {
+    color: #ccc;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
+    color: #ccc;
+}
+
+
+/* Mobile Styles */
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-section {
+        margin-bottom: 20px;
+    }
+}
+
+.bannertopindex {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.cert-details {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.certificate-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.team-member {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signature {
+    max-width: 100px;
+    /* Adjust the width as needed */
+    height: auto;
+    margin-bottom: 10px;
+}
